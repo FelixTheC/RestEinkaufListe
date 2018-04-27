@@ -1,10 +1,8 @@
-from django.http import HttpResponse, JsonResponse
-from django.shortcuts import render, get_object_or_404
-from django.core.exceptions import ObjectDoesNotExist
+from django.http import HttpResponse
+from django.shortcuts import get_object_or_404
 from django.urls import reverse
 from django.views.decorators.csrf import csrf_exempt
 from django.views.generic import CreateView, ListView, UpdateView
-from rest_framework.parsers import JSONParser
 
 from .models import Product
 from .models import Booking
