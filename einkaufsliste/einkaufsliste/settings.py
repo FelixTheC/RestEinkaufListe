@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 with open('secretkey.txt') as file:
-    SECRET_KEY = file.read()
+    SECRET_KEY = file.read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -130,4 +130,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 with open('apikey.txt') as file:
-    APIKEY = file.read()
+    APIKEY = file.read().strip()
