@@ -20,6 +20,6 @@ from einkauf import urls as einkauf
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^/$', include(einkauf, namespace='einkauf')),
+    url(r'^api/', include(einkauf, namespace='einkauf')),
 
 ]

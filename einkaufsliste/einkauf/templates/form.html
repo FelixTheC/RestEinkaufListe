@@ -1,0 +1,15 @@
+{% include 'base.html' %}
+{% block content %}
+    <div class="container">
+        <h2>{{ form_title }}</h2>
+        <form action="." method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" class="btn btn-info">
+            <a href="{% url 'einkauf:bookingList' %}" class="btn btn-primary">Back</a>
+            {% if productform %}
+                <a href="{% url 'einkauf:createProduct' %}" class="btn btn-danger">Create new product</a>
+            {% endif %}
+        </form>
+    </div>
+{% endblock %}

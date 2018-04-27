@@ -1,0 +1,40 @@
+{% include 'base.html' %}
+{% block content %}
+    <div class="container">
+        <h2 style="text-align: center">Einkaufsliste</h2>
+        <table class="table table-bordered table-responsive table-striped">
+        {% for object in object_list %}
+            <tr>
+                <td style="text-align: center" ondblclick="markAsBuyied({{ object.pk }})">
+                    {{ object.product.name }}
+                    {% if object.product.description %}
+                        / {{ object.product.description }}
+                    {% endif %}
+                    <input type="url" value="{% url 'einkauf:markBooking' object.pk %}"
+                           style="display: none" id="mypath_{{ object.pk }}">
+                </td>
+            </tr>
+        {% endfor %}
+        </table>
+        <a href="{% url 'einkauf:createBooking' %}" class="btn btn-primary btn-block">Create new entry</a>
+        <a href="." class="btn btn-secondary btn-block" onclick="reloadPage()">Refresh list</a>
+    </div>
+{% endblock %}
+{% block script %}
+<script>
+    function markAsBuyied(id) {
+        var host = $(location).attr('host');
+        var path = $('#mypath_' + id).val();
+        var url = 'http://' + host + path;
+        $.post( url, function( data ) {
+            if (data == 200) {
+                location.reload();
+            }
+        });
+    }
+
+    function reloadPage() {
+        location.reload();
+    }
+</script>
+{% endblock %}
