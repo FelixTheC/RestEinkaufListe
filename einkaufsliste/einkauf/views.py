@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import get_object_or_404
 from django.urls import reverse
+from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt
 from django.views.generic import CreateView, ListView, UpdateView
 
@@ -8,6 +9,7 @@ from .models import Product
 from .models import Booking
 
 
+@method_decorator(csrf_exempt, name='dispatch')
 class CreateProduct(CreateView):
     model = Product
     fields = '__all__'
@@ -25,6 +27,7 @@ class CreateProduct(CreateView):
         return super(CreateProduct, self).form_valid(form)
 
 
+@method_decorator(csrf_exempt, name='dispatch')
 class UpdateProduct(UpdateView):
     model = Product
     fields = '__all__'
@@ -42,6 +45,7 @@ class UpdateProduct(UpdateView):
         return super(UpdateProduct, self).form_valid(form)
 
 
+@method_decorator(csrf_exempt, name='dispatch')
 class CreateBookingEntry(CreateView):
     model = Booking
     fields = ['product', ]
