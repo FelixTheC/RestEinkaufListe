@@ -24,7 +24,7 @@ with open('secretkey.txt') as file:
     SECRET_KEY = file.read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 #SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 #SECURE_CONTENT_TYPE_NOSNIFF = True

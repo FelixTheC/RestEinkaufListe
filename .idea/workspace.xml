@@ -2,78 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4051b39-e3f8-4b69-a4b1-86ffeef13cef" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/extra.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/changelists.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/widgets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/fonts/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/calendar-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/gis/move_vertex_off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/gis/move_vertex_on.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-addlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-alert.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-calendar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-changelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-deletelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-unknown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-yes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/inline-delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/selector-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/sorting-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/tooltag-add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/SelectBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/SelectFilter2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/actions.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/cancel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/change_form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/collapse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/inlines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/inlines.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/jquery.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/popup_response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/prepopulate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/prepopulate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/prepopulate_init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/timeparse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/urlify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/secretkey.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RestEinkaufListe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RestEinkaufListe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/listProducts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/select_item_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/einkaufsliste/static/jquery-3.3.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/einkaufsliste/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkauf/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/einkaufsliste/einkauf/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/einkaufsliste/einkauf/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkauf/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/changelists.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/fonts/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/fonts/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/calendar-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-addlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-changelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-deletelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-no.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-unknown-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-unknown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-yes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/inline-delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/selector-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/sorting-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/tooltag-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/tooltag-arrowright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/SelectBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/SelectFilter2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/actions.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/change_form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/collapse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/inlines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/inlines.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/jquery.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/popup_response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/prepopulate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/prepopulate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/prepopulate_init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/timeparse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/urlify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,19 +90,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
               <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/urls.py">
+      <file leaf-file-name="listProducts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/listProducts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -110,7 +107,40 @@
         <entry file="file://$PROJECT_DIR$/einkaufsliste/einkaufsliste/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="366">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,28 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="secretkey.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/einkaufsliste/secretkey.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+            <state relative-caret-position="210">
+              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -156,37 +169,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="126" selection-start-line="9" selection-start-column="126" selection-end-line="9" selection-end-column="126" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#895#915#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="select_item_form.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/select_item_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -196,8 +195,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -228,17 +228,21 @@
         <option value="$PROJECT_DIR$/einkaufsliste/apikey.txt" />
         <option value="$PROJECT_DIR$/einkaufsliste/einkaufsliste/urls.py" />
         <option value="$PROJECT_DIR$/einkaufsliste/secretkey.txt" />
-        <option value="$PROJECT_DIR$/einkaufsliste/einkauf/templates/form.html" />
-        <option value="$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html" />
         <option value="$PROJECT_DIR$/einkaufsliste/einkauf/templates/list.html" />
-        <option value="$PROJECT_DIR$/einkaufsliste/einkauf/views.py" />
         <option value="$PROJECT_DIR$/einkaufsliste/einkauf/admin.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/einkaufsliste/secretkey" />
         <option value="$PROJECT_DIR$/einkaufsliste/einkaufsliste/extra.py" />
         <option value="$PROJECT_DIR$/einkaufsliste/einkauf/urls.py" />
-        <option value="$PROJECT_DIR$/einkaufsliste/einkaufsliste/settings.py" />
+        <option value="$PROJECT_DIR$/einkaufsliste/einkauf/forms.py" />
         <option value="$PROJECT_DIR$/einkaufsliste/einkauf/models.py" />
+        <option value="$PROJECT_DIR$/einkaufsliste/einkauf/views.py" />
+        <option value="$PROJECT_DIR$/einkaufsliste/einkauf/templates/form.html" />
+        <option value="$PROJECT_DIR$/einkaufsliste/einkauf/templates/listProducts.html" />
+        <option value="$PROJECT_DIR$/einkaufsliste/static/jquery-3.3.1.min.js" />
+        <option value="$PROJECT_DIR$/einkaufsliste/einkaufsliste/settings.py" />
+        <option value="$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html" />
+        <option value="$PROJECT_DIR$/einkaufsliste/einkauf/templates/select_item_form.html" />
       </list>
     </option>
   </component>
@@ -249,7 +253,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/einkaufsliste/static/bootstrap-4.1.0/package.json" />
+      <path value="$PROJECT_DIR$/einkaufsliste/static/jquery-ui-1.12.1/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="-2" />
@@ -366,6 +373,14 @@
       <option name="presentableId" value="Default" />
       <updated>1524307915370</updated>
     </task>
+    <task id="LOCAL-00001" summary="[CREATE] create new model categorie and set accosiciation to product">
+      <created>1533408440967</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533408440967</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -410,15 +425,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[CREATE] create new model categorie and set accosiciation to product" />
+    <option name="LAST_COMMIT_MESSAGE" value="[CREATE] create new model categorie and set accosiciation to product" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -426,6 +441,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="79" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -448,9 +466,7 @@
         <state relative-caret-position="30">
           <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#895#915#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -479,6 +495,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -496,10 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -545,46 +560,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/einkaufsliste/secretkey.txt" />
-    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="126" selection-start-line="9" selection-start-column="126" selection-end-line="9" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -608,8 +583,82 @@
     <entry file="file://$PROJECT_DIR$/einkaufsliste/secretkey.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#895#915#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/listProducts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/static/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="86841" selection-start-line="1" selection-start-column="86841" selection-end-line="1" selection-end-column="86841" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/admin/DateTimeShortcuts.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/einkaufsliste/einkaufsliste/extra.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -621,27 +670,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/einkaufsliste/einkaufsliste/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/models.py">
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/select_item_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,8 @@
 from django.db import models
 from datetime import datetime
 
+from django.urls import reverse
+
 
 class Categorie(models.Model):
     name = models.CharField(max_length=255)
@@ -21,6 +23,16 @@ class Product(models.Model):
             return self.name + '-' + self.description
         else:
             return self.name
+
+    def get_update_view(self):
+        return reverse('einkauf:updateProduct', kwargs={
+            'pk': self.pk,
+        })
+
+    def get_delete_view(self):
+        return reverse('einkauf:deleteProduct', kwargs={
+            'pk': self.pk,
+        })
 
 
 class Booking(models.Model):

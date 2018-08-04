@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container" onload="autoReload()">
+        <nav class="navbar-dark">
+            <a href="{% url 'einkauf:bookingList' %}" class="nav-item nav-link btn btn-primary ">Back</a>
+            <a href="{% url 'einkauf:createProduct' %}" class="nav-item nav-link btn btn-success" style="float: right">Create product</a>
+        </nav>
+        <h2 style="text-align: center">Products</h2>
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <table class="table table-bordered table-striped" style="font-size: 16px">
+            {% for object in object_list %}
+                <tr>
+                    <td style="text-align: center" >
+                        {{ object.name }} {% if object.description %} / {{ object.description }} {% endif %}
+                    </td>
+                    <td>
+                        <a href="{{ object.get_update_view }}" class="btn btn-secondary">Update</a>
+                    </td>
+                    <td>
+                        <a href="{{ object.get_delete_view }}" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </table>
+        </div>
+    </div>
+{% endblock %}
+{% block script %}
+<script>
+    $(document).ready(function () {
+       let time = 36000 * 5;
+       setTimeout(function () {
+           location.reload();
+       }, time);
+    });
+
+    function markAsBuyied(id) {
+        $('#' + id).css('background-color', '#ffaca3');
+        var host = $(location).attr('host');
+        var path = $('#mypath_' + id).val();
+        var url = 'http://' + host + path;
+        $.post( url, function( data ) {
+            if (data == 200) {
+                location.reload();
+            }
+        });
+    }
+
+    function reloadPage() {
+        location.reload();
+    }
+</script>
+{% endblock %}

@@ -1,12 +1,13 @@
 from django.http import HttpResponse
-from django.shortcuts import get_object_or_404
+from django.shortcuts import get_object_or_404, redirect
 from django.urls import reverse
 from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt
-from django.views.generic import CreateView, ListView, UpdateView
+from django.views.generic import CreateView, ListView, UpdateView, DeleteView
 
-from .models import Product
+from .models import Product, Categorie
 from .models import Booking
+from .forms import BookingForm
 
 
 @method_decorator(csrf_exempt, name='dispatch')
@@ -34,7 +35,7 @@ class UpdateProduct(UpdateView):
     template_name = 'form.html'
 
     def get_success_url(self):
-        return reverse('einkauf:bookingList')
+        return reverse('einkauf:productList')
 
     def get_context_data(self, **kwargs):
         context = super(UpdateProduct, self).get_context_data(**kwargs)
@@ -46,10 +47,19 @@ class UpdateProduct(UpdateView):
 
 
 @method_decorator(csrf_exempt, name='dispatch')
+class DeleteProduct(DeleteView):
+    model = Product
+    template_name = 'form.html'
+
+    def get_success_url(self):
+        return reverse('einkauf:productList')
+
+
+@method_decorator(csrf_exempt, name='dispatch')
 class CreateBookingEntry(CreateView):
     model = Booking
-    fields = ['product', ]
-    template_name = 'form.html'
+    form_class = BookingForm
+    template_name = 'select_item_form.html'
 
     def get_success_url(self):
         return reverse('einkauf:bookingList')
@@ -57,17 +67,36 @@ class CreateBookingEntry(CreateView):
     def get_context_data(self, **kwargs):
         context = super(CreateBookingEntry, self).get_context_data(**kwargs)
         context['form_title'] = 'Create new entry'
-        context['productform'] = True
+        context['products'] = Product.objects.all().order_by('name')
+        context['categorie'] = Categorie.objects.all()
         return context
 
-    def form_valid(self, form):
-        return super(CreateBookingEntry, self).form_valid(form)
+    def post(self, request, *args, **kwargs):
+        form = BookingForm(request.POST)
+        if form.is_valid():
+            for prod in request.POST.getlist('product'):
+                try:
+                    booking = Booking()
+                    booking.purchased = False
+                    booking.product = Product.objects.get(pk=prod)
+                    booking.save()
+                except ValueError:
+                    pass
+            return redirect(self.get_success_url())
+        else:
+            return redirect(self.get_success_url())
 
 
 class ListBookings(ListView):
     model = Booking
     queryset = Booking.objects.filter(purchased=False)
     template_name = 'list.html'
+
+
+class ListProducts(ListView):
+    model = Product
+    queryset = Product.objects.all()
+    template_name = 'listProducts.html'
 
 
 @csrf_exempt
