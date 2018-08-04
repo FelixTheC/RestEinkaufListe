@@ -2,9 +2,18 @@ from django.db import models
 from datetime import datetime
 
 
+class Categorie(models.Model):
+    name = models.CharField(max_length=255)
+    description = models.TextField(null=True, blank=True)
+
+    def __str__(self):
+        return self.name
+
+
 class Product(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField(null=True, blank=True)
+    categorie = models.ForeignKey(Categorie, default=1)
     created_at = models.DateTimeField(default=datetime.today(), blank=True, editable=False)
 
     def __str__(self):

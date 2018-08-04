@@ -24,7 +24,7 @@ with open('secretkey.txt') as file:
     SECRET_KEY = file.read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 #SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 #SECURE_CONTENT_TYPE_NOSNIFF = True
@@ -132,5 +132,5 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-with open('apikey.txt') as file:
-    APIKEY = file.read().strip()
+# with open('apikey.txt') as file:
+#     APIKEY = file.read().strip()
