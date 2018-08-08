@@ -7,9 +7,12 @@
             <select name="product" required id="id_product" class="custom-select" multiple>
                 <option value="-1" class="Diverse">---------</option>
                 {% for prod in products %}
-                    <option value="{{ prod.pk }}" class="{{ prod.categorie }}">{{ prod.name }}</option>
+                    <option value="{{ prod.pk }}" class="{{ prod.categorie }}">
+                        {{ prod.name }}{% if prod.description %} - {{ prod.description }}{% endif %}</option>
                 {% endfor %}
             </select>
+        <br>
+        <label for="id_categorie">Filter: </label>
             <select name="categorie" id="id_categorie" onchange="filter_categories()">
                 <option value="none">---------</option>
                 {% for cat in categorie %}

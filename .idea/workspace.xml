@@ -2,79 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4051b39-e3f8-4b69-a4b1-86ffeef13cef" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/listProducts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/select_item_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einkaufsliste/static/jquery-3.3.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkauf/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkauf/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkauf/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/changelists.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/css/widgets.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/fonts/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/fonts/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/calendar-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-addlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-alert.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-calendar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-changelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-clock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-deletelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-no.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-unknown-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-unknown.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/icon-yes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/inline-delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/selector-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/sorting-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/tooltag-add.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/img/tooltag-arrowright.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/SelectBox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/SelectFilter2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/actions.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/cancel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/change_form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/collapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/collapse.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/inlines.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/inlines.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/jquery.init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/popup_response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/prepopulate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/prepopulate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/prepopulate_init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/timeparse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/urlify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/listProducts.html" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/listProducts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/select_item_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/einkaufsliste/einkauf/templates/select_item_form.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,8 +28,11 @@
       <file leaf-file-name="listProducts.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/listProducts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="-24">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+              <folding>
+                <element signature="e#670#696#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,8 +40,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/einkaufsliste/einkaufsliste/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="510">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -115,7 +49,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="165">
               <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -124,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="127">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -136,7 +70,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="915">
               <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
@@ -148,8 +82,8 @@
       <file leaf-file-name="extra.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/einkaufsliste/einkaufsliste/extra.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="75">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
               </folding>
@@ -160,8 +94,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+            <state relative-caret-position="330">
+              <caret line="22" column="53" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="53" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -181,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="select_item_form.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="select_item_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/select_item_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="150">
+              <caret line="10" column="95" lean-forward="true" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -238,11 +172,11 @@
         <option value="$PROJECT_DIR$/einkaufsliste/einkauf/models.py" />
         <option value="$PROJECT_DIR$/einkaufsliste/einkauf/views.py" />
         <option value="$PROJECT_DIR$/einkaufsliste/einkauf/templates/form.html" />
-        <option value="$PROJECT_DIR$/einkaufsliste/einkauf/templates/listProducts.html" />
         <option value="$PROJECT_DIR$/einkaufsliste/static/jquery-3.3.1.min.js" />
         <option value="$PROJECT_DIR$/einkaufsliste/einkaufsliste/settings.py" />
-        <option value="$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html" />
         <option value="$PROJECT_DIR$/einkaufsliste/einkauf/templates/select_item_form.html" />
+        <option value="$PROJECT_DIR$/einkaufsliste/einkauf/templates/listProducts.html" />
+        <option value="$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html" />
       </list>
     </option>
   </component>
@@ -268,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,7 +238,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533408440967</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[CREATE] create productfilter via jquery">
+      <created>1533414740001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533414740001</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -402,11 +343,10 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3290398" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22950819" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26009792" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22950819" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27050182" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -417,6 +357,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,9 +368,166 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[CREATE] create new model categorie and set accosiciation to product" />
-    <option name="LAST_COMMIT_MESSAGE" value="[CREATE] create new model categorie and set accosiciation to product" />
+    <MESSAGE value="[CREATE] create productfilter via jquery" />
+    <option name="LAST_COMMIT_MESSAGE" value="[CREATE] create productfilter via jquery" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkaufsliste/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkaufsliste/extra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#895#915#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/select_item_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/listProducts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkaufsliste/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkaufsliste/extra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#895#915#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/select_item_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -577,36 +675,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/einkaufsliste/apikey.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/einkaufsliste/secretkey.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="165">
           <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -630,29 +705,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/listProducts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/einkaufsliste/static/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="86841" selection-start-line="1" selection-start-column="86841" selection-end-line="1" selection-end-column="86841" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkaufsliste/extra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkaufsliste/static/admin/js/admin/DateTimeShortcuts.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="915">
           <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
@@ -660,34 +732,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkaufsliste/extra.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/einkaufsliste/einkaufsliste/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="510">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="330">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/select_item_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="150">
+          <caret line="10" column="95" lean-forward="true" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/listProducts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#670#696#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/einkaufsliste/einkauf/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
