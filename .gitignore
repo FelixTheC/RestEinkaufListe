@@ -101,3 +101,5 @@ ENV/
 .mypy_cache/
 apikey.txt
 secrectkey.txt
+
+*.splite3

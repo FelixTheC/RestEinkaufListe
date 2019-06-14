@@ -15,7 +15,7 @@ class Categorie(models.Model):
 class Product(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField(null=True, blank=True)
-    categorie = models.ForeignKey(Categorie, default=1)
+    categorie = models.ForeignKey(Categorie, default=1, on_delete=models.SET_DEFAULT)
     created_at = models.DateTimeField(default=datetime.today(), blank=True, editable=False)
 
     def __str__(self):
@@ -36,7 +36,7 @@ class Product(models.Model):
 
 
 class Booking(models.Model):
-    product = models.ForeignKey(Product)
+    product = models.ForeignKey(Product, on_delete=models.DO_NOTHING)
     purchased = models.BooleanField(default=False)
     created_at = models.DateTimeField(default=datetime.today(), blank=True, editable=False)
 
