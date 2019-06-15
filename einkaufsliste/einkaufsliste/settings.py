@@ -27,6 +27,11 @@ with open(f'{BASE_DIR}/einkaufsliste/secretkey.txt') as file:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+SECURE_CONTENT_TYPE_NOSNIFF = True
+SECURE_BROWSER_XSS_FILTER = True
+# SECURE_SSL_REDIRECT = True
+# SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'http')
 
 ALLOWED_HOSTS = ['*']
 
@@ -52,6 +57,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
 
 ROOT_URLCONF = 'einkaufsliste.urls'
 
