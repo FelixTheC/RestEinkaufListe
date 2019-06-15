@@ -95,7 +95,7 @@ class ListBookings(ListView):
 
 class ListProducts(ListView):
     model = Product
-    queryset = Product.objects.all()
+    queryset = Product.objects.all().order_by('categorie__name', 'name')
     template_name = 'listProducts.html'
 
 
