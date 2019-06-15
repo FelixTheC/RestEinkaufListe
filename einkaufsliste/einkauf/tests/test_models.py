@@ -28,6 +28,8 @@ class CategorieModelTest(TestCase):
 
 class ProductModelTest(TestCase):
 
+    fixtures = ['data.yaml']
+
     def setUp(self) -> None:
         pass
 
@@ -35,7 +37,7 @@ class ProductModelTest(TestCase):
         pass
 
     def test_create_new_prodcut_success(self):
-        cat = Categorie.objects.create(name='Test', description='foo_bar')
+        cat = Categorie.objects.get(pk=1)
         prod = Product.objects.create(name='Foo', description='bar', categorie=cat)
         self.assertIsNotNone(prod)
         self.assertEqual(prod.name, 'Foo')
